@@ -35,6 +35,7 @@ set nofixendofline
 
 noremap <nowait> <Bslash> :find 
 noremap <nowait> <C-B>    :!git blame --color-lines <C-R>%
+noremap <nowait> \| :vimgrep  **/*<C-Left><C-Left>
 
 
 
